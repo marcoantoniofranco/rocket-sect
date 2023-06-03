@@ -1,0 +1,59 @@
+:root {
+  font-size: 62.5%;
+  --font-principal: 'JetBrains Mono', monospace;
+  --fornt-secundaria: 'Open Sans', sans-serif;
+
+  --cor-roxo: #2f2e41;
+  --cor-verde: #00bfa6;
+  --cor-cinza: #c2c2c2;
+  --cor-branco: #ffffff;
+}
+
+body {
+  background-color: var(--cor-roxo);
+  color: var(--cor-branco);
+
+  font-family: var(--font-principal);
+  font-size: 1.6rem;
+}
+
+.page {
+  margin-top: 70px;
+  min-height: 100vh;
+
+  max-width: min(100%, 1100px);
+  margin: 70px auto 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+
+  gap: 64px;
+}
+
+nav ul li a {
+  font-size: 1.4rem;
+  color: var(--cor-branco);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  gap: 77px;
+}
+
+.main section {
+  width: 604px;
+}
+
+.main section p {
+  line-height: 28px;
+}
