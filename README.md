@@ -6,6 +6,11 @@ Este é um projeto de website criado durante o curso Explorer da Rocketseat.
 
 Este projeto foi construído usando HTML e CSS.
 
+## Visualizando o Projeto 🌐
+
+Você pode visualizar o projeto online através da página do GitHub: https://yreidn.github.io/rocket-sect/
+
+
 ## Começando 🏃‍♀️
 
 Para obter uma cópia local e executar, basta clonar este repositório e abrir o arquivo index.html em seu navegador.
