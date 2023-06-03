@@ -39,8 +39,6 @@ body {
 
   max-width: clamp(800px, 85%, 1400px);
   padding: 50px;
-  /* padding-top: 0; */
-  /* margin: 50px auto 0; */
 }
 
 .header {
@@ -76,7 +74,7 @@ nav ul li a {
 }
 
 .main section h1 span {
-  color: #00bfa6;
+  color: var(--cor-verde);
 }
 
 .main section p {
@@ -88,7 +86,7 @@ nav ul li a {
 }
 
 .main section p span {
-  color: #00bfa6;
+  color: var(--cor-verde);
   font-weight: 700;
 }
 
@@ -98,7 +96,7 @@ footer {
   text-align: center;
   margin: 0 auto;
   width: 568px;
-  border-top: 1px solid #00bfa6;
+  border-top: 1px solid var(--cor-verde);
   padding-top: 20px;
 }
 
