@@ -17,12 +17,30 @@ body {
   font-size: 1.6rem;
 }
 
+.page-container {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  width: min(100%, 400px);
+}
+
+.wrapper img {
+  width: 100%;
+}
+
 .page {
-  margin-top: 70px;
   min-height: 100vh;
 
-  max-width: min(100%, 1100px);
-  margin: 70px auto 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  max-width: clamp(800px, 85%, 1400px);
+  padding: 50px;
+  /* padding-top: 0; */
+  /* margin: 50px auto 0; */
 }
 
 .header {
@@ -44,16 +62,53 @@ nav ul li a {
 
 .main {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  margin-top: 100px;
   gap: 77px;
 }
 
 .main section {
-  width: 604px;
+  width: 605px;
+}
+
+.main section h1 {
+  font-size: 3.6rem;
+}
+
+.main section h1 span {
+  color: #00bfa6;
 }
 
 .main section p {
   line-height: 28px;
+  font-family: var(--fornt-secundaria);
+  font-weight: 400;
+
+  color: var(--cor-cinza);
+}
+
+.main section p span {
+  color: #00bfa6;
+  font-weight: 700;
+}
+
+footer {
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-align: center;
+  margin: 0 auto;
+  width: 568px;
+  border-top: 1px solid #00bfa6;
+  padding-top: 20px;
+}
+
+.cadeado {
+  width: min(100%, 50px);
+  position: fixed;
+  bottom: 0;
+  margin: 30px;
+}
+
+.cadeado img {
+  width: 100%;
 }
