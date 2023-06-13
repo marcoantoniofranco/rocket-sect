@@ -8,7 +8,7 @@ Este projeto foi construído usando HTML e CSS.
 
 ## Visualizando o Projeto 🌐
 
-Você pode visualizar o projeto online através da página do GitHub: https://yreidn.github.io/rocket-sect/
+Você pode visualizar o projeto online através da página do GitHub: https://marcoantoniofranco.github.io/rocket-sect/
 
 
 ## Começando 🏃‍♀️
